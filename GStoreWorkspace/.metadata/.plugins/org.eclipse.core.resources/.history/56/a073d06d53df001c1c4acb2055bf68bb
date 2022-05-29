@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Página Default</title>
+	</head>
+	<body>
+		<h1>Bem Vindo(a), ao sistema GStore!</h1>
+		<p>
+			Criado como um sistema padrão para lojas, o GStore (Generic Store) busca oferecer aos seus usuários
+			uma experiência de comércio eletrônico usual e agradável.
+		</p>
+	</body>
+</html>

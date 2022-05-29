@@ -1,0 +1,80 @@
+package com.gstore.servlets;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.gstore.dao.ClienteDAO;
+import com.gstore.model.Cliente;
+
+@WebServlet("/ClienteController")
+public class ClienteController extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	
+	private ClienteDAO cdao = new ClienteDAO();
+       
+    public ClienteController() {
+        super();
+    }
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String action = request.getParameter("action");
+		
+		String codigoString = request.getParameter("");
+		String nome = request.getParameter("");
+		String email = request.getParameter("");
+		String telefone = request.getParameter("");
+		String endereco = request.getParameter("");
+		String bairro = request.getParameter("");
+		String cep = request.getParameter("");
+		String cidade = request.getParameter("");
+		String ativoString = request.getParameter("");
+		String cpf = request.getParameter("");
+		
+		Cliente cli = new Cliente();
+		
+		if(action == null) {
+			action = "read";
+		}
+		
+		if(codigoString != null) {
+			int codigo = Integer.parseInt(codigoString);
+			cli.setCodigo(codigo);
+		}
+		
+		if(ativoString != null) {
+			boolean ativo = Boolean.parseBoolean(ativoString);
+			cli.setAtivo(ativo);
+		}
+		
+		cli.setNome(nome);
+		cli.setEmail(email);
+		cli.setTelefone(telefone);
+		cli.setEndereco(endereco);
+		cli.setBairro(bairro);
+		cli.setCep(cep);
+		cli.setCidade(cidade);
+		cli.setCpf(cpf);
+		
+		switch (action) {
+		case "read":
+			request.setAttribute("lista", cdao.list()); 				// devolver a lista de clientes
+			System.err.println("Listagem de Clientes completa!");
+			request.getRequestDispatcher("/WEB-INF/Cliente.jsp").forward(request, response);
+			break;
+
+		default:
+			break;
+		}
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doGet(request, response);
+	}
+
+}

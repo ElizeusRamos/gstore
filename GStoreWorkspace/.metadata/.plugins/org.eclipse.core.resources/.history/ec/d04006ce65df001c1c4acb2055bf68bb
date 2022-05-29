@@ -1,0 +1,53 @@
+package com.gstore.servlets;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.gstore.dao.ProdutoDAO;
+import com.gstore.model.Produto;
+
+/**
+ * Servlet implementation class ProdutoController
+ */
+@WebServlet("/ProdutoController")
+public class ProdutoController extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	
+	private ProdutoDAO pdao = new ProdutoDAO();
+       
+    public ProdutoController() {
+        super();
+    }
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String nome = request.getParameter("nome");
+		String descricao = request.getParameter("descricao");
+		String precoString = request.getParameter("preco");
+		
+		Produto pd = new Produto();
+		
+		if(precoString != null) {
+			Double preco = Double.parseDouble(precoString);
+			pd.setPreco(preco);
+		}
+		
+		pd.setNome(nome);
+		pd.setDescricao(descricao);
+		
+		pdao.create(pd);
+		
+		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/Produto.jsp");
+		rd.forward(request, response);
+	}
+
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="com.gstore.model.Produto"/>
+    <fullyQualifiedTypeName name="com.gstore.dao.ProdutoDAO"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="com.gstore.model.Cliente"/>
+    <fullyQualifiedTypeName name="com.gstore.dao.ClienteDAO"/>
+</qualifiedTypeNameHistroy>

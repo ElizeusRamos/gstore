@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: #ccc;
+}
+
+table {
+	padding: 10px;
+	margin: 0 auto;
+	border: 2px solid #ddd;
+	text-align: right;
+	font-family: Arial, sans-serif;
+}
+
+tr, td {
+	font-size: 12px;
+}
+
+input {
+	height: 25px;
+	width: 400px;
+}
+
+h1 {
+	background-color: #00d;
+	color: #fff;
+	padding: 5px;
+	border: 2px solid #ddd;
+}
+
+select {
+	height: 25px;
+	width: 200px;
+}
+
+textarea {
+	width: 400px;
+	resize: none;
+}
+
+.botao {
+	height: 30px;
+	background-color: #0080ff;
+	border-color: #0080c0;
+	color: #fff;
+}
