@@ -2,7 +2,7 @@
 ![GStore](https://user-images.githubusercontent.com/83174570/171053744-a18428e5-2c50-4d3d-87cd-ffb20a585f99.png)
 ---
 
-Sistema genérico de gerenciamento de loja, dentro principais funcionalidades básicas inclusas:
+Sistema genérico de gerenciamento de loja, dentre as principais funcionalidades básicas inclusas:
 - Controle de cliente
 - Controle de estoque
 - Controle de Pedido 
