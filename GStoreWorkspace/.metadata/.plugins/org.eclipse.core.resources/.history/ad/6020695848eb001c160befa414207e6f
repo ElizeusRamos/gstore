@@ -1,0 +1,11 @@
+package com.gstore.dao;
+
+public class CargoDAO {
+	private final String QUERY_CREATE = "INSERT INTO cargos(nome, descricao) "
+			+ "values (?, ?)";
+	private final String QUERY_LIST = "SELECT * from cargos";
+	private final String QUERY_READ = "SELECT * from cargos WHERE id = ?";
+	private final String QUERY_UPDATE = "UPDATE cargos SET nome = ?, descricao = ? "
+			+ "WHERE id = ?";
+	private final String QUERY_DELETE = "DELETE from cargos WHERE id = ?";
+}

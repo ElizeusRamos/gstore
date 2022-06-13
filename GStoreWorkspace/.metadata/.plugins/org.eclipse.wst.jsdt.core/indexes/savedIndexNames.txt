@@ -1,12 +1,8 @@
 INDEX VERSION 1.4+D:\Desenvolvimento\Projetos\eclipse-2021-12\gstore\GStoreWorkspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1243178526.index
-2639449809.index
-3179082438.index
-4078361048.index
-633857810.index
 1086106328.index
+633857810.index
+2639449809.index
 3511206834.index
 3482841461.index
-221459228.index
 3574297029.index
-676102778.index
+1243178526.index

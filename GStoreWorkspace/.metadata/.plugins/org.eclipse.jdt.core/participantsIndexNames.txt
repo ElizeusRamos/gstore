@@ -1,7 +1,3 @@
 INDEX VERSION 1.131
-D:\Desenvolvimento\Projetos\eclipse-2021-12\GstoreWorkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\709040097.index
-\GStoreWeb\src
-D:\Desenvolvimento\Projetos\eclipse-2021-12\GstoreWorkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3482841461.index
-\GStoreWeb\src
 D:\Desenvolvimento\Projetos\eclipse-2021-12\gstore\GStoreWorkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3482841461.index
 \GStoreWeb\src
