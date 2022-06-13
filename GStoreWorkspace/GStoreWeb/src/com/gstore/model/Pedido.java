@@ -1,10 +1,13 @@
 package com.gstore.model;
 
+import java.util.List;
+
 public class Pedido {
 	private int codigo;
-	private Cliente cliente;
-	private Colaborador vendedor;
-	private Produto produto;
+	private String cliente;
+	private String vendedor;
+	private List<Produto> produtos;
+	private double totalPedido;
 	
 	public int getCodigo() {
 		return codigo;
@@ -12,24 +15,29 @@ public class Pedido {
 	public void setCodigo(int codigo) {
 		this.codigo = codigo;
 	}
-	public Cliente getCliente() {
+	public String getCliente() {
 		return cliente;
 	}
-	public void setCliente(Cliente cliente) {
+	public void setCliente(String cliente) {
 		this.cliente = cliente;
 	}
-	public Colaborador getVendedor() {
+	public String getVendedor() {
 		return vendedor;
 	}
-	public void setVendedor(Colaborador vendedor) {
+	public void setVendedor(String vendedor) {
 		this.vendedor = vendedor;
 	}
-	public Produto getProduto() {
-		return produto;
+	public List<Produto> getProdutos() {
+		return produtos;
 	}
-	public void setProduto(Produto produto) {
-		this.produto = produto;
+	public void setProdutos(List<Produto> produtos) {
+		this.produtos = produtos;
 	}
-	
+	public double getTotalPedido() {
+		return totalPedido;
+	}
+	public void setTotalPedido(double totalPedido) {
+		this.totalPedido = totalPedido;
+	}
 	
 }

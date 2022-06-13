@@ -1,0 +1,5 @@
+package com.gstore.dao;
+
+public class PedidoDAO {
+
+}

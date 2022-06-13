@@ -1,0 +1,8 @@
+package com.gstore.dao;
+
+public class PedidoDAO {
+	private final String QUERY_CREATE = "INSERT INTO pedidos(vendedor, cliente, totalPedido) "
+			+ "values (?, ?)";
+	private final String QUERY_LIST = "SELECT * from pedidos";
+	private final String QUERY_DELETE = "DELETE from pedidos WHERE id = ?";
+}

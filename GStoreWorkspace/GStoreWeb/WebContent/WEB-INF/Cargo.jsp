@@ -128,7 +128,7 @@
 		        	<div class="form-group">
 		        		<label for="ativo">Cargo Ativo</label>
 		        		<select class="form-control"  id="ativo" name="ativo" aria-descriptedby="statusHelp" required>
-			        		<option value="none" selected disabled hidden>
+			        		<option value="none" selected disabled hidden="hidden">
 					          Selecione uma opção
 					        </option>
 		        			<option value="true">ATIVO</option>
