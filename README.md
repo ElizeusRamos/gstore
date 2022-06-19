@@ -23,7 +23,9 @@ Ferramentas utilizadas
 - GitBash
 
 ---
+SCRIPT DE BANCO DE DADOS - CRIAÇÃO
 
+[script]([https://user-images.githubusercontent.com/83174570/174497131-175baa21-2f3e-446d-82f0-b26cae55cb62.png](https://github.com/ElizeusRamos/gstore/blob/master/scripts.sql))
 ---
 ## Imagens do sistema
 
