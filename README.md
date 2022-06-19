@@ -25,8 +25,30 @@ Ferramentas utilizadas
 ---
 SCRIPT DE BANCO DE DADOS - CRIAÇÃO
 
-[script]([https://user-images.githubusercontent.com/83174570/174497131-175baa21-2f3e-446d-82f0-b26cae55cb62.png](https://github.com/ElizeusRamos/gstore/blob/master/scripts.sql))
+[script](https://github.com/ElizeusRamos/gstore/blob/master/scripts.sql)
 ---
+CONFIGURAÇÃO DA CONEXÃO COM O BANCO DE DADOS
+
+```
+private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
+private static final String USER = "root";
+private static final String PASSWORD = "root";
+private static final String URL_DATABASE = "jdbc:mysql://localhost:3306/bancodedados";
+```
+arquivo: [ConnectionFactory.java](https://github.com/ElizeusRamos/gstore/blob/master/GStoreWorkspace/GStoreWeb/src/com/gstore/dao/ConnectionFactory.java)
+---
+DEPENDÊNCIA - DRIVER DE CONEXÃO AO BANCO DE DADOS - MYSQL
+```
+<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.29</version>
+</dependency>
+```
+arquivo: [pom.xml](https://github.com/ElizeusRamos/gstore/blob/master/GStoreWorkspace/GStoreWeb/pom.xml)
+---
+
 ## Imagens do sistema
 
 Página inicial de apresentação
