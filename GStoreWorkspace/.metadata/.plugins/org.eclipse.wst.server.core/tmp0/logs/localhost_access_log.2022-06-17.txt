@@ -1,0 +1,15 @@
+127.0.0.1 - - [17/Jun/2022:09:51:25 -0300] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:51:32 -0300] "GET /GStoreWeb HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:51:32 -0300] "GET /GStoreWeb/ HTTP/1.1" 200 2036
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:51:32 -0300] "GET /GStoreWeb/styles/bootstrap.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:51:32 -0300] "GET /GStoreWeb/scripts/popper.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:51:32 -0300] "GET /GStoreWeb/scripts/jquery.mask.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:51:32 -0300] "GET /GStoreWeb/scripts/bootstrap.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:51:32 -0300] "GET /GStoreWeb/scripts/jquery.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:51:32 -0300] "GET /GStoreWeb/assets/GStore.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:51:32 -0300] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:52:10 -0300] "GET /GStoreWeb/ HTTP/1.1" 200 2040
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:52:51 -0300] "GET /GStoreWeb/ HTTP/1.1" 200 2057
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:54:29 -0300] "GET /GStoreWeb/ HTTP/1.1" 200 2089
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:54:49 -0300] "GET /GStoreWeb/PedidoController HTTP/1.1" 200 6010
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:55:18 -0300] "GET /GStoreWeb/index.html HTTP/1.1" 200 2089
