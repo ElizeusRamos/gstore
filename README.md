@@ -23,10 +23,12 @@ Ferramentas utilizadas
 - GitBash
 
 ---
+
+---
 ## Imagens do sistema
 
 Página inicial de apresentação
-![main-page](https://user-images.githubusercontent.com/83174570/171053454-05859d3c-dfea-4998-842c-e30c1401c1a8.png)
+![main-page](https://user-images.githubusercontent.com/83174570/174497131-175baa21-2f3e-446d-82f0-b26cae55cb62.png)
 
 
 Controle de Clientes
